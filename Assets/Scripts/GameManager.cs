@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+//push test
         resultUI.SetActive(false);
         time = levelTime;
         StartCoroutine(countdown());
